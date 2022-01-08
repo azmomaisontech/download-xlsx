@@ -13,10 +13,11 @@ export default async function downloadXlsx(req: Request, res: Response) {
         columns: [
           { label: "Name", value: "name" },
           { label: "Age", value: "age" },
+          { label: "Test", value: "t" },
         ],
         content: [
-          { name: "Monserrat", age: 21 },
-          { name: "Luis", age: 22 },
+          { name: "Monserrat", age: 21, t: "x" },
+          { name: "Luis", age: 22, t: "x" },
         ],
       },
     ];
